@@ -8,6 +8,7 @@ import { createApp } from 'vue'
 import { ioc } from 'iocello'
 
 //init ioc 
+console.log("%cInitializing the IoC before app here..","color:lightblue;")
 // if in webpack use context to get collection of files and pass it to loadServices..
 //ioc.instance.loadServices
 //N number of appContexts..

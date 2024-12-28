@@ -1,7 +1,6 @@
 <script setup lang="ts">
 import { ioc } from 'iocello'
-import type { IPerson } from './service/person'
-
+import type { IPerson } from './service/meta'
 const person = ioc.construct<IPerson>('Person')
 console.log(person)
 </script>
